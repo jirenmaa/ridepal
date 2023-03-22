@@ -1,0 +1,28 @@
+{
+	"name": "ridepal",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"@tailwindcss/line-clamp": "^0.4.2",
+		"autoprefixer": "^10.4.14",
+		"leaflet": "^1.9.3",
+		"postcss": "^8.4.21",
+		"svelte": "^3.54.0",
+		"svelte-leafletjs": "^0.10.0",
+		"tailwindcss": "^3.2.7",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"clsx": "^1.2.1",
+		"firebase": "^9.18.0",
+		"mongodb": "^4.5.0"
+	}
+}

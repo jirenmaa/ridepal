@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  scrollbar-width: none !important;
+}
+
+*::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: none;
+}
+
+.layout {
+  background: rgb(129, 123, 114);
+  background: linear-gradient(
+    145deg,
+    rgba(129, 123, 114, 1) 0%,
+    rgba(174, 161, 142, 1) 35%,
+    rgba(215, 180, 138, 1) 100%
+  );
+}
